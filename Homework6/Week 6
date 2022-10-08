@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Homepage</title>
+    </head>
+    <body>
+        <ul> 
+            <li>Art</li>
+            <li>Writing</li>
+            <li>Ridiing My Bike</li>
+            <li>New Adventures</li>
+            <li>Family</li>
+    
+        </ul>
+         <ol>
+            <li><a href="https://www.chinabuffetma.com/"></a>China Buffet</a></li>
+            <li><a href="https://chinagardenmt.com/"></a>China Garden</a></li>
+            <li><a href="https://www.wendys.com/?utm_source=paid-search&utm_medium=search&utm_campaign=always-on"></a>Wendys</a></li>
+            <li><a href="http://kobemissoula.com/"></a>Kobe</a></li>
+            <li><a herf="https://www.montanaclub.com/"></a>Montana Club</a></li>
+         </ol>
+         <ol>
+            <li><a href="https://www.google.com"></a>Google</a></li>
+            <li><a href="https://www.youtube.com"></a>Youtube</a></li>
+            <li><a href="https://www.tiktok.com"></a>Tictok</a></li>
+         </ol>
+
+        
+    </body>
+    <a href="Page 2"></a>Page 2</a>
+    <a href="Contact Us"></a>Contact Us</a>
+    </html>

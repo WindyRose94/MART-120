@@ -1,0 +1,82 @@
+<html> 
+    <head>
+        <title> Tell Us About Yourself </title>
+    </head>
+    <style> 
+        #specificcolor {
+            color: purple;
+            font-family: arial;
+            font-size: 34px;
+        }
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </style>
+    <script>
+    .invald {border-color: red;}
+    #error {color: red}
+            }
+    <script/>
+    <form action="Contact Us" type="POST">
+        First Name: <input type="text" id="fName" required><br>
+        <div id="error"></div>
+        <script>
+        input.onblur = function(){
+            if (input.value.includes('letter')) {
+                input.classList.add('invalid');
+                error.innterHTML = 'Please enter first name.'
+            }
+        };
+        input.onfocus = function(){
+            if (this.classList.contains('invalid')){
+                this.classList.remove('invalid');
+                error.innerHTML = "";
+            }
+        };
+        </script>
+        Last Name: <input type="text" id="lName" required><br>
+        <div id="error"></div>
+        <script>
+        input.onblur = function(){
+            if (input.value.includes('letter')) {
+                input.classList.add('invalid');
+                error.innterHTML = 'Please enter last name.'
+            }
+        };
+        input.onfocus = function(){
+            if (this.classList.contains('invalid')){
+                this.classList.remove('invalid');
+                error.innerHTML = "";
+            }
+        };
+        </script>
+        Email: <input type="text" id="email" reqired><br>
+        <div id="error"></div>
+        <script>
+        input.onblur = function(){
+            if (input.value.includes('@')) {
+                input.classList.add('invalid');
+                error.innterHTML = 'Please enter a correct email.'
+            }
+        };
+        input.onfocus = function(){
+            if (this.classList.contains('invalid')){
+                this.classList.remove('invalid');
+                error.innerHTML = "";
+            }
+        };
+        </script>
+        <button id="mySubmit" type="submit">Submit</button>
+    </form>
+    <span id="specificcolor">
+    <imput type="radio" name="yes" value="yes">Yes</imput>
+    <imput type="radio" name="no" value="no">No</imput>
+    </span>
+</brk>
+   <span id="spacificcolor">
+    <a href="Page 2"></a>Page 2</a>
+    <a href="Week 6"></a>Week 6</a>
+    </span>
+</html>
+
